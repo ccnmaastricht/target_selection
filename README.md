@@ -1,5 +1,5 @@
 # Visual Target Selection Model
----
+
 This repository contains the target visual selection model and example code on how to use the model.
 
 The model is based on the decision-making model given by [Wong and Wang (2006)](http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3733-05.2006). Here, we simulate two mutually inhibiting excitatory populations that exhibit competition with switching, i.e., the two populations switch between high and low firing activity out of phase at a certain frequency. This is useful for visual search paradigms where several salient objects cause competition in the FEF neurons so as to ensure fixation on one of the objects for a few (milli)seconds until another salient object causes the corresponding FEF neuron(s) to 'win'. 
