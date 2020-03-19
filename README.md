@@ -1,15 +1,13 @@
 # Visual Target Selection Model
 
-This repository contains the target visual selection model and example code on how to use the model.
+This repository contains the visual target selection model for a free viewing paradigm and example code on how to use the model.
 
-The model is based on the decision-making model given by [Wong and Wang (2006)](http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3733-05.2006). Here, we simulate two mutually inhibiting excitatory populations that exhibit competition with switching, i.e., the two populations switch between high and low firing activity out of phase at a certain frequency. This is useful for visual search paradigms where several salient objects cause competition in the FEF neurons so as to ensure fixation on one of the objects for a few (milli)seconds until another salient object causes the corresponding FEF neuron(s) to 'win'. 
+The model is based on the decision-making model given by [Wong and Wang (2006)](http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3733-05.2006), which simulates two mutually-inhibiting excitatory populations that exhibit winner-takes-all (WTA) behaviour. Our aim is to model visual target selection for free-viewing paradigms. In a free-viewing paradigm, several salient objects cause competition in the superior colliculus (SC) neurons so as to ensure fixation on one of the objects for a few (milli)seconds until another salient object causes the corresponding SC neurons to 'win'. Hence, we extend the Wong-Wang model to include switching behaviour. Switching implies that the two populations compete and alternate between high and low firing activity, as without such a mechanism, a simple WTA model would get stuck in one attractor. A probable underlying mechanism for such behaviour is the existence of a negative feedback loop from the motor neurons in the brainstem that execute saccade generation commands and the visual input itself.  
 
 ### Model architecture
 ---
 The model consists of two mutually inhibiting excitatory population with recurrent excitatory connections and both receive external and background input.  
-![alt text][logo]
-[logo]: https://github.com/ccnmaastricht/target_selection/images/arch.png "Model architecture"
-
+![](images/arch.png =50x)
 
 ### Requirements
 ---
@@ -21,9 +19,14 @@ The model consists of two mutually inhibiting excitatory population with recurre
 
 The code was created and tested on Linux and MacOS. 
 
-### Executing code
+### Code execution
 ---
 To execute example code, run `python usage.py` in a command line interface. 
+
+### Demo
+---
+The example code returns a plot of firing activity of the two populations over time. A noisy input of 44 Hz and 36 Hz to E0 and E1 respectively is switched on at 2 seconds, lasts for 10 seconds and is turned off for 3 seconds. 
+![](images/demo.png =100x)
 
 ### Contact
 ---
