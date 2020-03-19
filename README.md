@@ -7,9 +7,7 @@ The model is based on the decision-making model given by [Wong and Wang (2006)](
 ### Model architecture
 ---
 The model consists of two mutually inhibiting excitatory population with recurrent excitatory connections and both receive external and background input.  
-![alt text][logo]
-[logo]: https://github.com/ccnmaastricht/target_selection/images/arch.png "Model architecture"
-
+![alt text][https://github.com/ccnmaastricht/target_selection/images/arch.png]
 
 ### Requirements
 ---
