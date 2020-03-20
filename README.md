@@ -1,5 +1,11 @@
 # Visual Target Selection Model
 
+![](https://img.shields.io/github/license/ccnmaastricht/ganglion_density_sampling)
+![](https://img.shields.io/github/issues/ccnmaastricht/target_selection)
+![](https://img.shields.io/github/forks/ccnmaastricht/target_selection)
+![](https://img.shields.io/github/stars/ccnmaastricht/target_selection)
+
+
 This repository contains the visual target selection model for a free viewing paradigm and example code on how to use the model.
 
 ### Model Description
@@ -12,24 +18,23 @@ The model consists of two mutually inhibiting excitatory population with recurre
 
 ### Requirements
 ---
-| Package       | Version       | 
-|:-------------:|:-------------:| 
+| Package       | Version       |
+|:-------------:|:-------------:|
 | python        | >= 2.7        |
 | numpy         | >= 1.8        |
 | matplotlib    | >= 1.3        |
 
-The code was created and tested on Linux and MacOS. 
+The code was created and tested on Linux and MacOS.
 
 ### Code execution
 ---
-To execute example code, run `python usage.py` in a command line interface. 
+To execute example code, run `python usage.py` in a command line interface.
 
 ### Demo
 ---
-The example code returns a plot of firing activity of the two populations over time. A noisy input of 44 Hz and 36 Hz to E0 and E1 respectively is switched on at 2 seconds, lasts for 10 seconds and is turned off for 3 seconds. 
+The example code returns a plot of firing activity of the two populations over time. A noisy input of 44 Hz and 36 Hz to E0 and E1 respectively is switched on at 2 seconds, lasts for 10 seconds and is turned off for 3 seconds.
 ![](images/demo.png)
 
 ### Contact
 ---
 For questions, bug reports, and suggestions about this work, please create an [issue](https://github.com/ccnmaastricht/target_selection/issues) in this repository.
-
