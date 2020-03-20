@@ -1,4 +1,4 @@
-# Visual Target Selection Model
+# Visual Target Selection Model v0.6.0
 
 ![](https://img.shields.io/github/license/ccnmaastricht/ganglion_density_sampling)
 ![](https://img.shields.io/github/issues/ccnmaastricht/target_selection)
@@ -6,9 +6,10 @@
 ![](https://img.shields.io/github/stars/ccnmaastricht/target_selection)
 
 
-This repository contains the visual target selection model for a free viewing paradigm and example code on how to use the model.
+This repository contains the visual target selection model (v0.6.0) for a free viewing paradigm and example code on how to use the model.
 
 ### Model Description
+---
 We aim to model visual target selection for free-viewing paradigms. Our model is based on the decision-making model given by [Wong and Wang (2006)](http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3733-05.2006), which simulates two mutually-inhibiting excitatory populations that exhibit winner-takes-all (WTA) behaviour.  In a free-viewing paradigm, several salient objects cause competition in the frontal eye fields (FEF) neurons so as to ensure fixation on one of the objects for a few (milli)seconds until another salient object causes the corresponding FEF neurons to ‘win’. Hence, we extend the WTA model of Wong and Wang to include switching behaviour. Switching implies that the two populations compete and alternate between high and low firing activity. Without such a mechanism, a simple WTA model would stay forever in one attractor state. A probable underlying mechanism for switching behaviour is the existence of a negative feedback loop from the motor neurons in the brainstem that execute saccade generation commands and the visual input itself  
 
 ### Model architecture
