@@ -1,12 +1,11 @@
-# Visual Target Selection Model v0.6.0
+# Visual Target Selection Model 
 
 ![](https://img.shields.io/github/license/ccnmaastricht/ganglion_density_sampling)
 ![](https://img.shields.io/github/issues/ccnmaastricht/target_selection)
 ![](https://img.shields.io/github/forks/ccnmaastricht/target_selection)
 ![](https://img.shields.io/github/stars/ccnmaastricht/target_selection)
 
-
-This repository contains the visual target selection model (v0.6.0) for a free viewing paradigm and example code on how to use the model.
+This repository contains the visual target selection model (current version - v0.6.0) for a free viewing paradigm and example code on how to use the model.
 
 ### Model Description
 ---
